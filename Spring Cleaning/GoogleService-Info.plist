@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>779437416956-t811o6ljngtjr6i36fk5vhf476o9slog.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.779437416956-t811o6ljngtjr6i36fk5vhf476o9slog</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAuYmjeFyIlsEpMPmjoZsokl6ojf7OAV94</string>
+	<key>GCM_SENDER_ID</key>
+	<string>779437416956</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>DannyKong.Spring-Cleaning</string>
+	<key>PROJECT_ID</key>
+	<string>spring-cleaning-120e8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spring-cleaning-120e8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:779437416956:ios:947c5f10b175d15ecf5279</string>
+	<key>DATABASE_URL</key>
+	<string>https://spring-cleaning-120e8-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

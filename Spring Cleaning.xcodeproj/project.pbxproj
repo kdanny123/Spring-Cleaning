@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15206F483A84CAA6C92DB52D /* Pods_Spring_Cleaning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CB4122419C55E83EE7A8FB /* Pods_Spring_Cleaning.framework */; };
+		8444A97727DAA15100B221A0 /* Spring_CleaningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444A97627DAA15100B221A0 /* Spring_CleaningApp.swift */; };
+		8444A97B27DAA15300B221A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8444A97A27DAA15300B221A0 /* Assets.xcassets */; };
+		8444A97E27DAA15300B221A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8444A97D27DAA15300B221A0 /* Preview Assets.xcassets */; };
+		8444A98527DEA6AA00B221A0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444A98427DEA6AA00B221A0 /* Item.swift */; };
+		8444A98727DEA98500B221A0 /* jeans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8444A98627DEA98500B221A0 /* jeans.jpg */; };
+		8444A98927DEAAB200B221A0 /* shirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8444A98827DEAAB200B221A0 /* shirt.jpg */; };
+		846959A927E05F600069823A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959A827E05F5F0069823A /* LoginView.swift */; };
+		846959AB27E060050069823A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846959AA27E060050069823A /* GoogleService-Info.plist */; };
+		846959AF27E068B90069823A /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959AE27E068B90069823A /* InputTextFieldView.swift */; };
+		846959B227E111D50069823A /* PreviewLayoutsComponentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959B127E111D50069823A /* PreviewLayoutsComponentModifier.swift */; };
+		846959B427E150670069823A /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959B327E150670069823A /* InputPasswordView.swift */; };
+		846959B627E153F80069823A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959B527E153F80069823A /* ButtonView.swift */; };
+		846959BA27E1A1470069823A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959B927E1A1470069823A /* RegisterView.swift */; };
+		846959BC27E1A58A0069823A /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959BB27E1A58A0069823A /* CloseModifier.swift */; };
+		846959C027E1B57D0069823A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959BF27E1B57D0069823A /* HomeView.swift */; };
+		846959C427E277620069823A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959C327E277620069823A /* ForgotPasswordView.swift */; };
+		846959C727E284FD0069823A /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959C627E284FD0069823A /* RegistrationDetails.swift */; };
+		846959CA27E285550069823A /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959C927E285550069823A /* RegistrationService.swift */; };
+		846959CD27E3E6150069823A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959CC27E3E6150069823A /* RegistrationViewModel.swift */; };
+		846959D027E7A13F0069823A /* SessionUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959CF27E7A13F0069823A /* SessionUserDetails.swift */; };
+		846959D227E7A3530069823A /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959D127E7A3530069823A /* SessionService.swift */; };
+		846959D527E93F180069823A /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959D427E93F180069823A /* LoginCredentials.swift */; };
+		846959D727E93F3E0069823A /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959D627E93F3E0069823A /* LoginService.swift */; };
+		846959DA27E940FD0069823A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959D927E940FD0069823A /* LoginViewModel.swift */; };
+		846959DC27E944E90069823A /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959DB27E944E90069823A /* ForgotPasswordService.swift */; };
+		846959DE27E945F60069823A /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959DD27E945F60069823A /* ForgotPasswordViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11B084A77E14510ED4BCDF86 /* Pods-Spring Cleaning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spring Cleaning.release.xcconfig"; path = "Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning.release.xcconfig"; sourceTree = "<group>"; };
+		65CB4122419C55E83EE7A8FB /* Pods_Spring_Cleaning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spring_Cleaning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8444A97327DAA15100B221A0 /* Spring Cleaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spring Cleaning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8444A97627DAA15100B221A0 /* Spring_CleaningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring_CleaningApp.swift; sourceTree = "<group>"; };
+		8444A97A27DAA15300B221A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8444A97D27DAA15300B221A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8444A98427DEA6AA00B221A0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8444A98627DEA98500B221A0 /* jeans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans.jpg; sourceTree = "<group>"; };
+		8444A98827DEAAB200B221A0 /* shirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt.jpg; sourceTree = "<group>"; };
+		846959A827E05F5F0069823A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		846959AA27E060050069823A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		846959AE27E068B90069823A /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
+		846959B127E111D50069823A /* PreviewLayoutsComponentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutsComponentModifier.swift; sourceTree = "<group>"; };
+		846959B327E150670069823A /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
+		846959B527E153F80069823A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		846959B927E1A1470069823A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		846959BB27E1A58A0069823A /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
+		846959BF27E1B57D0069823A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		846959C327E277620069823A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		846959C627E284FD0069823A /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
+		846959C927E285550069823A /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
+		846959CC27E3E6150069823A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		846959CF27E7A13F0069823A /* SessionUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDetails.swift; sourceTree = "<group>"; };
+		846959D127E7A3530069823A /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		846959D427E93F180069823A /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		846959D627E93F3E0069823A /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		846959D927E940FD0069823A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		846959DB27E944E90069823A /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
+		846959DD27E945F60069823A /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		C7352AD083B92C706ACFC5BF /* Pods-Spring Cleaning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spring Cleaning.debug.xcconfig"; path = "Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8444A97027DAA15100B221A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15206F483A84CAA6C92DB52D /* Pods_Spring_Cleaning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8444A96A27DAA15100B221A0 = {
+			isa = PBXGroup;
+			children = (
+				8444A97527DAA15100B221A0 /* Spring Cleaning */,
+				8444A97427DAA15100B221A0 /* Products */,
+				F2486902D755415F7B4551C4 /* Pods */,
+				B84271511BE22CFC0CB378DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8444A97427DAA15100B221A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8444A97327DAA15100B221A0 /* Spring Cleaning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8444A97527DAA15100B221A0 /* Spring Cleaning */ = {
+			isa = PBXGroup;
+			children = (
+				846959AC27E068820069823A /* Components */,
+				846959A527E05F350069823A /* Features */,
+				8444A97627DAA15100B221A0 /* Spring_CleaningApp.swift */,
+				8444A98427DEA6AA00B221A0 /* Item.swift */,
+				8444A97A27DAA15300B221A0 /* Assets.xcassets */,
+				8444A98827DEAAB200B221A0 /* shirt.jpg */,
+				8444A98627DEA98500B221A0 /* jeans.jpg */,
+				846959AA27E060050069823A /* GoogleService-Info.plist */,
+				8444A97C27DAA15300B221A0 /* Preview Content */,
+			);
+			path = "Spring Cleaning";
+			sourceTree = "<group>";
+		};
+		8444A97C27DAA15300B221A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8444A97D27DAA15300B221A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846959A527E05F350069823A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				846959CE27E7A1380069823A /* Session */,
+				846959C127E2774B0069823A /* Forgot Password */,
+				846959BD27E1B5690069823A /* Home */,
+				846959B727E1A12D0069823A /* Register */,
+				846959A627E05F3F0069823A /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		846959A627E05F3F0069823A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				846959D927E940FD0069823A /* LoginViewModel.swift */,
+				846959D427E93F180069823A /* LoginCredentials.swift */,
+				846959A827E05F5F0069823A /* LoginView.swift */,
+				846959D627E93F3E0069823A /* LoginService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		846959AC27E068820069823A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				846959B027E111AB0069823A /* Modifiers */,
+				846959AD27E0689E0069823A /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		846959AD27E0689E0069823A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846959AE27E068B90069823A /* InputTextFieldView.swift */,
+				846959B327E150670069823A /* InputPasswordView.swift */,
+				846959B527E153F80069823A /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		846959B027E111AB0069823A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				846959B127E111D50069823A /* PreviewLayoutsComponentModifier.swift */,
+				846959BB27E1A58A0069823A /* CloseModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		846959B727E1A12D0069823A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				846959B927E1A1470069823A /* RegisterView.swift */,
+				846959CC27E3E6150069823A /* RegistrationViewModel.swift */,
+				846959C927E285550069823A /* RegistrationService.swift */,
+				846959C627E284FD0069823A /* RegistrationDetails.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		846959BD27E1B5690069823A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				846959BF27E1B57D0069823A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		846959C127E2774B0069823A /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				846959C327E277620069823A /* ForgotPasswordView.swift */,
+				846959DB27E944E90069823A /* ForgotPasswordService.swift */,
+				846959DD27E945F60069823A /* ForgotPasswordViewModel.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		846959CE27E7A1380069823A /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				846959CF27E7A13F0069823A /* SessionUserDetails.swift */,
+				846959D127E7A3530069823A /* SessionService.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		B84271511BE22CFC0CB378DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65CB4122419C55E83EE7A8FB /* Pods_Spring_Cleaning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2486902D755415F7B4551C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7352AD083B92C706ACFC5BF /* Pods-Spring Cleaning.debug.xcconfig */,
+				11B084A77E14510ED4BCDF86 /* Pods-Spring Cleaning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8444A97227DAA15100B221A0 /* Spring Cleaning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8444A98127DAA15300B221A0 /* Build configuration list for PBXNativeTarget "Spring Cleaning" */;
+			buildPhases = (
+				1DF3D1285F232E1CB83DB782 /* [CP] Check Pods Manifest.lock */,
+				8444A96F27DAA15100B221A0 /* Sources */,
+				8444A97027DAA15100B221A0 /* Frameworks */,
+				8444A97127DAA15100B221A0 /* Resources */,
+				060BAAB1FD122D6074122A01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spring Cleaning";
+			productName = "Spring Cleaning";
+			productReference = 8444A97327DAA15100B221A0 /* Spring Cleaning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8444A96B27DAA15100B221A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8444A97227DAA15100B221A0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 8444A96E27DAA15100B221A0 /* Build configuration list for PBXProject "Spring Cleaning" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8444A96A27DAA15100B221A0;
+			productRefGroup = 8444A97427DAA15100B221A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8444A97227DAA15100B221A0 /* Spring Cleaning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8444A97127DAA15100B221A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8444A98727DEA98500B221A0 /* jeans.jpg in Resources */,
+				8444A97E27DAA15300B221A0 /* Preview Assets.xcassets in Resources */,
+				846959AB27E060050069823A /* GoogleService-Info.plist in Resources */,
+				8444A98927DEAAB200B221A0 /* shirt.jpg in Resources */,
+				8444A97B27DAA15300B221A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060BAAB1FD122D6074122A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF3D1285F232E1CB83DB782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spring Cleaning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8444A96F27DAA15100B221A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846959D527E93F180069823A /* LoginCredentials.swift in Sources */,
+				8444A98527DEA6AA00B221A0 /* Item.swift in Sources */,
+				846959CA27E285550069823A /* RegistrationService.swift in Sources */,
+				846959DE27E945F60069823A /* ForgotPasswordViewModel.swift in Sources */,
+				846959C427E277620069823A /* ForgotPasswordView.swift in Sources */,
+				846959CD27E3E6150069823A /* RegistrationViewModel.swift in Sources */,
+				846959D227E7A3530069823A /* SessionService.swift in Sources */,
+				846959C027E1B57D0069823A /* HomeView.swift in Sources */,
+				846959A927E05F600069823A /* LoginView.swift in Sources */,
+				846959BC27E1A58A0069823A /* CloseModifier.swift in Sources */,
+				846959C727E284FD0069823A /* RegistrationDetails.swift in Sources */,
+				846959B427E150670069823A /* InputPasswordView.swift in Sources */,
+				8444A97727DAA15100B221A0 /* Spring_CleaningApp.swift in Sources */,
+				846959AF27E068B90069823A /* InputTextFieldView.swift in Sources */,
+				846959D727E93F3E0069823A /* LoginService.swift in Sources */,
+				846959BA27E1A1470069823A /* RegisterView.swift in Sources */,
+				846959DC27E944E90069823A /* ForgotPasswordService.swift in Sources */,
+				846959B627E153F80069823A /* ButtonView.swift in Sources */,
+				846959B227E111D50069823A /* PreviewLayoutsComponentModifier.swift in Sources */,
+				846959DA27E940FD0069823A /* LoginViewModel.swift in Sources */,
+				846959D027E7A13F0069823A /* SessionUserDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8444A97F27DAA15300B221A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8444A98027DAA15300B221A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8444A98227DAA15300B221A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7352AD083B92C706ACFC5BF /* Pods-Spring Cleaning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spring Cleaning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DannyKong.Spring-Cleaning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8444A98327DAA15300B221A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B084A77E14510ED4BCDF86 /* Pods-Spring Cleaning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spring Cleaning/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DannyKong.Spring-Cleaning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8444A96E27DAA15100B221A0 /* Build configuration list for PBXProject "Spring Cleaning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8444A97F27DAA15300B221A0 /* Debug */,
+				8444A98027DAA15300B221A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8444A98127DAA15300B221A0 /* Build configuration list for PBXNativeTarget "Spring Cleaning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8444A98227DAA15300B221A0 /* Debug */,
+				8444A98327DAA15300B221A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8444A96B27DAA15100B221A0 /* Project object */;
+}
