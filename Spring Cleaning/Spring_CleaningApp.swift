@@ -25,7 +25,8 @@ struct Spring_CleaningApp: App {
                 
                 switch sessionService.state {
                 case .loggedIn:
-                    HomeView()
+//                    HomeView()
+                    AppTabNavigation()
                         .environmentObject(sessionService)
                 case .loggedOut:
                         LoginView()

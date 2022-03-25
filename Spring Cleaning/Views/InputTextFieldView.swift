@@ -21,6 +21,7 @@ struct InputTextFieldView: View {
             .frame(maxWidth: .infinity, minHeight: 44)
             .padding(.leading, sfSymbol == nil ? textFieldLeading/2 : textFieldLeading)
             .keyboardType(keyboardType)
+            .disableAutocorrection(true)
             .background(
                 ZStack(alignment: .leading) {
                     

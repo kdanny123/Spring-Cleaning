@@ -22,7 +22,7 @@
 		846959B627E153F80069823A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959B527E153F80069823A /* ButtonView.swift */; };
 		846959BA27E1A1470069823A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959B927E1A1470069823A /* RegisterView.swift */; };
 		846959BC27E1A58A0069823A /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959BB27E1A58A0069823A /* CloseModifier.swift */; };
-		846959C027E1B57D0069823A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959BF27E1B57D0069823A /* HomeView.swift */; };
+		846959C027E1B57D0069823A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959BF27E1B57D0069823A /* ContentView.swift */; };
 		846959C427E277620069823A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959C327E277620069823A /* ForgotPasswordView.swift */; };
 		846959C727E284FD0069823A /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959C627E284FD0069823A /* RegistrationDetails.swift */; };
 		846959CA27E285550069823A /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959C927E285550069823A /* RegistrationService.swift */; };
@@ -34,6 +34,13 @@
 		846959DA27E940FD0069823A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959D927E940FD0069823A /* LoginViewModel.swift */; };
 		846959DC27E944E90069823A /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959DB27E944E90069823A /* ForgotPasswordService.swift */; };
 		846959DE27E945F60069823A /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959DD27E945F60069823A /* ForgotPasswordViewModel.swift */; };
+		846959E127EBAF4B0069823A /* SellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959E027EBAF4A0069823A /* SellView.swift */; };
+		846959E327EBAFB60069823A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959E227EBAFB60069823A /* SearchView.swift */; };
+		846959E527EBB74B0069823A /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959E427EBB74B0069823A /* AppTabNavigation.swift */; };
+		846959E727EBBC890069823A /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959E627EBBC890069823A /* Favorites.swift */; };
+		846959E927EBC16B0069823A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959E827EBC16B0069823A /* HomeView.swift */; };
+		846959EC27EDA80F0069823A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959EB27EDA80E0069823A /* ImagePicker.swift */; };
+		846959EE27EDA8860069823A /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959ED27EDA8860069823A /* ProfileImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +61,7 @@
 		846959B527E153F80069823A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		846959B927E1A1470069823A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		846959BB27E1A58A0069823A /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
-		846959BF27E1B57D0069823A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		846959BF27E1B57D0069823A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		846959C327E277620069823A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		846959C627E284FD0069823A /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
 		846959C927E285550069823A /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
@@ -66,6 +73,13 @@
 		846959D927E940FD0069823A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		846959DB27E944E90069823A /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
 		846959DD27E945F60069823A /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		846959E027EBAF4A0069823A /* SellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellView.swift; sourceTree = "<group>"; };
+		846959E227EBAFB60069823A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		846959E427EBB74B0069823A /* AppTabNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigation.swift; sourceTree = "<group>"; };
+		846959E627EBBC890069823A /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		846959E827EBC16B0069823A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		846959EB27EDA80E0069823A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		846959ED27EDA8860069823A /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		C7352AD083B92C706ACFC5BF /* Pods-Spring Cleaning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spring Cleaning.debug.xcconfig"; path = "Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,9 +116,13 @@
 		8444A97527DAA15100B221A0 /* Spring Cleaning */ = {
 			isa = PBXGroup;
 			children = (
-				846959AC27E068820069823A /* Components */,
-				846959A527E05F350069823A /* Features */,
 				8444A97627DAA15100B221A0 /* Spring_CleaningApp.swift */,
+				846959BF27E1B57D0069823A /* ContentView.swift */,
+				846959EB27EDA80E0069823A /* ImagePicker.swift */,
+				846959CE27E7A1380069823A /* Session */,
+				846959EA27EC3FF90069823A /* Modifiers */,
+				846959AD27E0689E0069823A /* Views */,
+				846959DF27EBAF2D0069823A /* TabBarMain */,
 				8444A98427DEA6AA00B221A0 /* Item.swift */,
 				8444A97A27DAA15300B221A0 /* Assets.xcassets */,
 				8444A98827DEAAB200B221A0 /* shirt.jpg */,
@@ -123,18 +141,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		846959A527E05F350069823A /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				846959CE27E7A1380069823A /* Session */,
-				846959C127E2774B0069823A /* Forgot Password */,
-				846959BD27E1B5690069823A /* Home */,
-				846959B727E1A12D0069823A /* Register */,
-				846959A627E05F3F0069823A /* Login */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
 		846959A627E05F3F0069823A /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,32 +152,18 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		846959AC27E068820069823A /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				846959B027E111AB0069823A /* Modifiers */,
-				846959AD27E0689E0069823A /* Views */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		846959AD27E0689E0069823A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				846959C127E2774B0069823A /* Forgot Password */,
+				846959B727E1A12D0069823A /* Register */,
+				846959A627E05F3F0069823A /* Login */,
 				846959AE27E068B90069823A /* InputTextFieldView.swift */,
 				846959B327E150670069823A /* InputPasswordView.swift */,
 				846959B527E153F80069823A /* ButtonView.swift */,
+				846959ED27EDA8860069823A /* ProfileImage.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		846959B027E111AB0069823A /* Modifiers */ = {
-			isa = PBXGroup;
-			children = (
-				846959B127E111D50069823A /* PreviewLayoutsComponentModifier.swift */,
-				846959BB27E1A58A0069823A /* CloseModifier.swift */,
-			);
-			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		846959B727E1A12D0069823A /* Register */ = {
@@ -183,14 +175,6 @@
 				846959C627E284FD0069823A /* RegistrationDetails.swift */,
 			);
 			path = Register;
-			sourceTree = "<group>";
-		};
-		846959BD27E1B5690069823A /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				846959BF27E1B57D0069823A /* HomeView.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		846959C127E2774B0069823A /* Forgot Password */ = {
@@ -210,6 +194,27 @@
 				846959D127E7A3530069823A /* SessionService.swift */,
 			);
 			path = Session;
+			sourceTree = "<group>";
+		};
+		846959DF27EBAF2D0069823A /* TabBarMain */ = {
+			isa = PBXGroup;
+			children = (
+				846959E027EBAF4A0069823A /* SellView.swift */,
+				846959E227EBAFB60069823A /* SearchView.swift */,
+				846959E427EBB74B0069823A /* AppTabNavigation.swift */,
+				846959E627EBBC890069823A /* Favorites.swift */,
+				846959E827EBC16B0069823A /* HomeView.swift */,
+			);
+			path = TabBarMain;
+			sourceTree = "<group>";
+		};
+		846959EA27EC3FF90069823A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				846959B127E111D50069823A /* PreviewLayoutsComponentModifier.swift */,
+				846959BB27E1A58A0069823A /* CloseModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		B84271511BE22CFC0CB378DB /* Frameworks */ = {
@@ -349,18 +354,25 @@
 				846959D527E93F180069823A /* LoginCredentials.swift in Sources */,
 				8444A98527DEA6AA00B221A0 /* Item.swift in Sources */,
 				846959CA27E285550069823A /* RegistrationService.swift in Sources */,
+				846959EC27EDA80F0069823A /* ImagePicker.swift in Sources */,
 				846959DE27E945F60069823A /* ForgotPasswordViewModel.swift in Sources */,
 				846959C427E277620069823A /* ForgotPasswordView.swift in Sources */,
 				846959CD27E3E6150069823A /* RegistrationViewModel.swift in Sources */,
 				846959D227E7A3530069823A /* SessionService.swift in Sources */,
-				846959C027E1B57D0069823A /* HomeView.swift in Sources */,
+				846959C027E1B57D0069823A /* ContentView.swift in Sources */,
+				846959EE27EDA8860069823A /* ProfileImage.swift in Sources */,
+				846959E727EBBC890069823A /* Favorites.swift in Sources */,
 				846959A927E05F600069823A /* LoginView.swift in Sources */,
 				846959BC27E1A58A0069823A /* CloseModifier.swift in Sources */,
 				846959C727E284FD0069823A /* RegistrationDetails.swift in Sources */,
 				846959B427E150670069823A /* InputPasswordView.swift in Sources */,
+				846959E127EBAF4B0069823A /* SellView.swift in Sources */,
+				846959E327EBAFB60069823A /* SearchView.swift in Sources */,
+				846959E927EBC16B0069823A /* HomeView.swift in Sources */,
 				8444A97727DAA15100B221A0 /* Spring_CleaningApp.swift in Sources */,
 				846959AF27E068B90069823A /* InputTextFieldView.swift in Sources */,
 				846959D727E93F3E0069823A /* LoginService.swift in Sources */,
+				846959E527EBB74B0069823A /* AppTabNavigation.swift in Sources */,
 				846959BA27E1A1470069823A /* RegisterView.swift in Sources */,
 				846959DC27E944E90069823A /* ForgotPasswordService.swift in Sources */,
 				846959B627E153F80069823A /* ButtonView.swift in Sources */,
