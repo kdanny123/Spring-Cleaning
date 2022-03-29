@@ -10,20 +10,28 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @StateObject var session = SessionServiceImplementation()
+    
     
     var body: some View {
+        
+        
+        
         VStack {
-            ProfileImage()
+ProfileSettingsHeader()
         }
         .navigationBarItems(trailing:
-            Button(action: {
-            }) {
+                                Button(action: {
+            
+            
+        }) {
+            NavigationLink(destination: Settings()) {
                 Image(systemName: "gear")
                     .font(.title)
                     .foregroundColor(.secondary)
             }
+        }
         )
+        
     }
     
 }

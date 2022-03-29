@@ -67,6 +67,7 @@ struct AppTabNavigation: View {
             
             
             
+            
             NavigationView {
                 SellView()
             }

@@ -41,6 +41,8 @@
 		846959E927EBC16B0069823A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959E827EBC16B0069823A /* HomeView.swift */; };
 		846959EC27EDA80F0069823A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959EB27EDA80E0069823A /* ImagePicker.swift */; };
 		846959EE27EDA8860069823A /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959ED27EDA8860069823A /* ProfileImage.swift */; };
+		846959F127EDAEFA0069823A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959F027EDAEFA0069823A /* Settings.swift */; };
+		846959F427EE66DE0069823A /* ProfileSettingsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959F327EE66DE0069823A /* ProfileSettingsHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		846959E827EBC16B0069823A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		846959EB27EDA80E0069823A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		846959ED27EDA8860069823A /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		846959F027EDAEFA0069823A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		846959F327EE66DE0069823A /* ProfileSettingsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsHeader.swift; sourceTree = "<group>"; };
 		C7352AD083B92C706ACFC5BF /* Pods-Spring Cleaning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spring Cleaning.debug.xcconfig"; path = "Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +126,6 @@
 				846959CE27E7A1380069823A /* Session */,
 				846959EA27EC3FF90069823A /* Modifiers */,
 				846959AD27E0689E0069823A /* Views */,
-				846959DF27EBAF2D0069823A /* TabBarMain */,
 				8444A98427DEA6AA00B221A0 /* Item.swift */,
 				8444A97A27DAA15300B221A0 /* Assets.xcassets */,
 				8444A98827DEAAB200B221A0 /* shirt.jpg */,
@@ -155,13 +158,12 @@
 		846959AD27E0689E0069823A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				846959EF27EDAE7E0069823A /* Components */,
+				846959DF27EBAF2D0069823A /* TabBarMain */,
 				846959C127E2774B0069823A /* Forgot Password */,
 				846959B727E1A12D0069823A /* Register */,
 				846959A627E05F3F0069823A /* Login */,
-				846959AE27E068B90069823A /* InputTextFieldView.swift */,
-				846959B327E150670069823A /* InputPasswordView.swift */,
-				846959B527E153F80069823A /* ButtonView.swift */,
-				846959ED27EDA8860069823A /* ProfileImage.swift */,
+				846959F227EE66BA0069823A /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +217,26 @@
 				846959BB27E1A58A0069823A /* CloseModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		846959EF27EDAE7E0069823A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				846959AE27E068B90069823A /* InputTextFieldView.swift */,
+				846959B327E150670069823A /* InputPasswordView.swift */,
+				846959B527E153F80069823A /* ButtonView.swift */,
+				846959ED27EDA8860069823A /* ProfileImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		846959F227EE66BA0069823A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				846959F027EDAEFA0069823A /* Settings.swift */,
+				846959F327EE66DE0069823A /* ProfileSettingsHeader.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		B84271511BE22CFC0CB378DB /* Frameworks */ = {
@@ -351,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846959F127EDAEFA0069823A /* Settings.swift in Sources */,
 				846959D527E93F180069823A /* LoginCredentials.swift in Sources */,
 				8444A98527DEA6AA00B221A0 /* Item.swift in Sources */,
 				846959CA27E285550069823A /* RegistrationService.swift in Sources */,
@@ -359,6 +382,7 @@
 				846959C427E277620069823A /* ForgotPasswordView.swift in Sources */,
 				846959CD27E3E6150069823A /* RegistrationViewModel.swift in Sources */,
 				846959D227E7A3530069823A /* SessionService.swift in Sources */,
+				846959F427EE66DE0069823A /* ProfileSettingsHeader.swift in Sources */,
 				846959C027E1B57D0069823A /* ContentView.swift in Sources */,
 				846959EE27EDA8860069823A /* ProfileImage.swift in Sources */,
 				846959E727EBBC890069823A /* Favorites.swift in Sources */,
@@ -517,7 +541,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,7 +571,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

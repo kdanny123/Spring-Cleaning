@@ -11,9 +11,11 @@ import Foundation
 
 struct ProfileImage: View {
     
+    
+    
     @State var showActionSheet = false
     @State var showImagePicker = false
-    @State var imageSelected = UIImage()
+    @State var imageSelected: UIImage?
     @State var changeProfileImage = false
     @State var sourceType: UIImagePickerController.SourceType = .camera
     
@@ -22,13 +24,21 @@ struct ProfileImage: View {
         ZStack(alignment: .bottomTrailing){
             Button {
                 self.showActionSheet = true
-                self.changeProfileImage = true
+                
             } label: {
-                if changeProfileImage == true {
+                
+                
+                
+                
+                
+                if let imageSelected = self.imageSelected {
+                    
+                    
                     Image(uiImage: imageSelected)
                         .resizable()
                         .clipShape(Circle())
                         .frame(width: 100, height: 100)
+                    
                 } else {
                     Image(systemName: "person")
                         .foregroundColor(.gray)
@@ -36,12 +46,12 @@ struct ProfileImage: View {
                         .clipShape(Circle())
                         .overlay(Circle().stroke(Color.gray, lineWidth: 5))
                         .shadow(radius: 2)
-                    
                 }
+                
             }
             Button {
                 self.showActionSheet = true
-                self.changeProfileImage = true
+                
             } label: {
                 Image(systemName: "plus")
                     .foregroundColor(.white).font(.largeTitle)
@@ -66,8 +76,10 @@ struct ProfileImage: View {
                             .cancel()
                         ])
         }.sheet(isPresented: $showImagePicker) {
-            ImagePicker(selectedImage: self.$imageSelected, sourceType: self.sourceType)
+            ImagePicker(selectedImage: $imageSelected, sourceType: self.sourceType)
         }
     }
+    
+    
 }
 
