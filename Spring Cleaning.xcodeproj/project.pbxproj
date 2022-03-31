@@ -43,6 +43,7 @@
 		846959EE27EDA8860069823A /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959ED27EDA8860069823A /* ProfileImage.swift */; };
 		846959F127EDAEFA0069823A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959F027EDAEFA0069823A /* Settings.swift */; };
 		846959F427EE66DE0069823A /* ProfileSettingsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846959F327EE66DE0069823A /* ProfileSettingsHeader.swift */; };
+		84B0091D27F64E5400E6361F /* CircleFrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0091C27F64E5400E6361F /* CircleFrameModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		846959ED27EDA8860069823A /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		846959F027EDAEFA0069823A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		846959F327EE66DE0069823A /* ProfileSettingsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsHeader.swift; sourceTree = "<group>"; };
+		84B0091C27F64E5400E6361F /* CircleFrameModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFrameModifier.swift; sourceTree = "<group>"; };
 		C7352AD083B92C706ACFC5BF /* Pods-Spring Cleaning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spring Cleaning.debug.xcconfig"; path = "Target Support Files/Pods-Spring Cleaning/Pods-Spring Cleaning.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +217,7 @@
 			children = (
 				846959B127E111D50069823A /* PreviewLayoutsComponentModifier.swift */,
 				846959BB27E1A58A0069823A /* CloseModifier.swift */,
+				84B0091C27F64E5400E6361F /* CircleFrameModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				846959E927EBC16B0069823A /* HomeView.swift in Sources */,
 				8444A97727DAA15100B221A0 /* Spring_CleaningApp.swift in Sources */,
 				846959AF27E068B90069823A /* InputTextFieldView.swift in Sources */,
+				84B0091D27F64E5400E6361F /* CircleFrameModifier.swift in Sources */,
 				846959D727E93F3E0069823A /* LoginService.swift in Sources */,
 				846959E527EBB74B0069823A /* AppTabNavigation.swift in Sources */,
 				846959BA27E1A1470069823A /* RegisterView.swift in Sources */,

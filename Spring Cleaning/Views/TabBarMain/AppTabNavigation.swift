@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AppTabNavigation: View {
     
-    
+
     
     enum Tab {
         case search
@@ -54,6 +54,7 @@ struct AppTabNavigation: View {
             
             NavigationView {
                 HomeView()
+
             }
             .tabItem {
                 Label {

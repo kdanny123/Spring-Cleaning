@@ -77,6 +77,7 @@ struct Settings: View {
                             title: Text("Are you sure you want to log out?"),
                             primaryButton: .destructive(Text("Log out")) {
                                 session.logOut()
+
                             },
                             secondaryButton: .cancel()
                         )

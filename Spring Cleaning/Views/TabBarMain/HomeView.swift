@@ -17,7 +17,7 @@ struct HomeView: View {
         
         
         VStack {
-ProfileSettingsHeader()
+            profileFrame
         }
         .navigationBarItems(trailing:
                                 Button(action: {
