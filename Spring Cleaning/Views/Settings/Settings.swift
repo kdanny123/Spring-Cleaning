@@ -20,6 +20,9 @@ struct Settings: View {
     @State var imageSelected = UIImage()
     @State var sourceType: UIImagePickerController.SourceType = .camera
     
+    //cropping mech
+    
+  
     
     
     

@@ -15,16 +15,19 @@ struct ProfileSettingsHeader: View {
     @State var showImagePicker = false
     @State var imageSelected: UIImage?
     @State var sourceType: UIImagePickerController.SourceType = .camera
+    
     var body: some View {
         
         
         ZStack(alignment: .bottomTrailing){
             Button {
                 self.showActionSheet = true
+            
             } label: {
 
                 if let imageSelected = imageSelected {
                     Image(uiImage: imageSelected)
+                        .applyCircleFrame()
                 } else {
                     profileFrame
                         .applyCircleFrame()
@@ -40,6 +43,7 @@ struct ProfileSettingsHeader: View {
                             .default(Text("Photo Library"), action: {
                                 self.showImagePicker = true
                                 self.sourceType = .photoLibrary
+                                
                             }),
                             .cancel()
                         ])
